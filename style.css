@@ -10,7 +10,8 @@ main{
     margin: 10px auto;
 }
 
-.first-row{
+.first-row,
+.second-row{
     width: 100%;
     margin-bottom: 2%;
 }
@@ -20,7 +21,7 @@ main{
 #colonna3{
     width: 32%;
     float: left;
-    position: relative
+    position: relative;
 }
 
 #colonna2{
@@ -30,6 +31,27 @@ main{
 img{
     width: 100%;
 }
+
+.pic-1{
+    display: block;
+}
+  
+.img-hover{
+    display: none;
+}
+  
+#colonna1:hover .img-hover,
+#colonna2:hover .img-hover,
+#colonna3:hover .img-hover{
+    display: block;
+}
+  
+#colonna1:hover .pic-1,
+#colonna2:hover .pic-1,
+#colonna3:hover .pic-1{
+    display: none;
+}
+  
 
 .first-row::after,
 .second-row::after{
@@ -72,18 +94,18 @@ h3{
     background-color: green;
     color: white;
     display: inline-block;
-    padding: 3%;
+    padding: 1%;
     text-align: center;
     font-size: 12px;
     font-weight: bold;
-    margin-left: 1%;
+    margin-left: 0.5%;
 }
 
 .sale{
     background-color: red;
     color: white;
     display: inline-block;
-    padding: 3%;
+    padding: 1%;
     text-align: center;
     font-size: 12px;
     font-weight: bold;
@@ -91,6 +113,12 @@ h3{
 
 .sale-eco{
     position: absolute;
-    top: 82%;
+    bottom: 5%;
     left: 0;
+    width: 100%;
+}
+
+.foto{
+    width: 100%;
+    position: relative;
 }
