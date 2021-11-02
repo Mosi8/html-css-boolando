@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.first-row{
+    width: 100%;
+}
+
+#colonna1,
+#colonna2,
+#colonna3{
+    width: 32%;
+    float: left;
+}
+
+#colonna2{
+    margin: 0 2%;
+}
+
+img{
+    width: 100%;
+}
+
+.first-row::after,
+.second-row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
