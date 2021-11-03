@@ -117,4 +117,5 @@ h3{
 .foto{
     width: 100%;
     position: relative;
+    cursor: pointer;
 }
