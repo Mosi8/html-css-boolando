@@ -40,15 +40,11 @@ img{
     display: none;
 }
   
-#colonna1:hover .img-hover,
-#colonna2:hover .img-hover,
-#colonna3:hover .img-hover{
+.foto:hover .img-hover{
     display: block;
 }
   
-#colonna1:hover .pic-1,
-#colonna2:hover .pic-1,
-#colonna3:hover .pic-1{
+.foto:hover .pic-1{
     display: none;
 }
   
